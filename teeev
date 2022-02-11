@@ -1,0 +1,100 @@
+color:transparent !important
+}
+
+div.modal-content button.close:focus,
+div.modal-content button.close:hover {
+    text-shadow: none;
+    opacity: 1;
+    color: var(--banner-flicker) !important
+}
+
+strong.username {
+    color: #777
+}
+
+.botmeta {
+    font-size: 12px;
+    color: #888
+}
+
+.botmeta s {
+    text-decoration: none !important;
+    font-style: italic;
+    font-size: 10px
+}
+
+div#messagebuffer.linewrap.notstamps span {
+    background-color: transparent !important
+}
+
+div#chatwrap button.btn.btn-primary {
+    display: none
+}
+
+#videowrap {
+    margin-top: -2px
+}
+
+div.chat-msg-GothicKing span.greentext a {
+    color: #789922 !important;
+    font-weight: 700
+}
+
+div.chat-msg-Unclamable .username {
+    color: pink !important
+}
+
+.chat-msg-GothicKing .username {
+    font-size: 0
+}
+
+.chat-msg-GothicKing .username::before {
+    color: var(--bot-username);
+    content: "BOT ";
+    font-size: 13px
+}
+
+.chat-msg-GothicKing .username {
+    color: var(--bot-username);
+    font-style: normal
+}
+
+.chat-msg-Rosh .The Great::before {
+    content: "👻 "
+}
+
+li[title="Added by: Rosh"] {
+    padding-left: 55px;
+    background-image: url(https://vignette.wikia.nocookie.net/vsbattles/images/9/90/Sneed_feed_and_seed-removebg-preview.png/revision/latest/scale-to-width-down/340?cb=20200226015432) !important;
+    background-repeat: no-repeat !important;
+    background-size: 50px !important;
+    background-position: 0 8px !important
+}
+
+li[title="Added by: GothicKing"] .qe_title {
+    color: var(--bot-video-title)
+}
+
+ul.nav:nth-child(1)>li:nth-child(1) {
+    display: none
+}
+
+.nick-hover {
+    background-color: #f5d80c70
+}
+
+.panel-primary>.panel-heading {
+    background-color: #ffd90fbf !important
+}
+
+.nick-highlight {
+    background-color: #e5e410
+}
+
+.nick-highlight {
+    background-color: #e5e4102b
+}
+
+.greentext {
+    color: #ffd90f
+}
